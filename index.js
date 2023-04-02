@@ -58,5 +58,3 @@ function calculatesFarePrice(initialLocation, destination){
     else return("cannot travel that far");
 }
 console.log(calculatesFarePrice(0, 2300));
-
-//Task4
