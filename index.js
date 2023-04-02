@@ -37,7 +37,7 @@ function distanceTravelledInFeet(initialLocation, destination){
     else if (destination > initialLocation){
         return (destination - initialLocation)*feet;
     }
-    else return ("Distance cannot be a negative value!!");
+    else return 0;
 }
 console.log(distanceTravelledInFeet(43, 48));
 console.log(distanceTravelledInFeet(50, 60));
@@ -57,4 +57,7 @@ function calculatesFarePrice(initialLocation, destination){
     }
     else return("cannot travel that far");
 }
-console.log(calculatesFarePrice(0, 2300));
+console.log(calculatesFarePrice(43, 44));
+console.log(calculatesFarePrice(34, 32));
+console.log(calculatesFarePrice(50, 58));
+console.log(calculatesFarePrice(34, 24));
